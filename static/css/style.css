@@ -1,0 +1,25 @@
+.su-main-footer-area {
+    background: #f26d3e;
+    min-height: 80px;
+    padding: 1rem;
+}
+.list-footer {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.list-footer li {
+    margin-bottom: 10px;
+}
+
+.su-footer-l-col p, .su-footer-r-col p {
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+
+.list-footer a, .list-footer a:focus, .list-footer a:hover, .su-footer-l-col p, .su-footer-r-col p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
