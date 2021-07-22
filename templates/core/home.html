@@ -1,18 +1,27 @@
 {% extends 'core/base.html' %}
+{% load static %}
 
 {% block content %}
 <div class="su-main-banner-area">
     <div class="container">
         <div class="inside-main">
-            <h1>alsjdf</h1>
-            <h1>alsjdf</h1>
-            <h1>alsjdf</h1>
-            <h1>alsjdf</h1>
-            <h1>alsjdf</h1>
-            <h1>alsjdf</h1>
-            <h1>alsjdf</h1>
-            <h1>alsjdf</h1>
-            <h1>alsjdf</h1>            
+            <div class="banner-large-cards py-5">
+                <a href="#">
+                    <div class="h-reg-cards-top"><img class="img-fluid" src="{% static 'web_image/reg_sign.png' %}" alt="">
+                    <h2 class="ml-3">VACCINE REGISTRATION</h2>                    
+                    </div>
+                    <div class="text-center pt-5">
+                        <h6 class="py-3">During Registration You Need</h6>
+                        <img src="{% static 'web_image/during_reg_you_need.png' %}" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="banner-small-cards">
+
+            </div>
+            <div>
+
+            </div>            
         </div>
 
     </div>
